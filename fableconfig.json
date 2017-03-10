@@ -1,0 +1,14 @@
+{
+    "projFile": "./Fable.Import.Ws.fsproj",
+    "sourceMaps": true,
+    "babelPlugins": ["transform-runtime"],
+    "outDir": "npm",
+    "module": "es2015",
+    "targets": {
+        "umd": {
+            "outDir": "npm/umd",
+            "module": "umd",
+            "dll": false
+        }
+    }
+}

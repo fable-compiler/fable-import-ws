@@ -1,0 +1,20 @@
+{
+  "name": "fable-import-ws",
+  "version": "0.0.0",
+  "description": "Fable bindings for Websockets library ws",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/fable-compiler",
+    "package": "node build.js"
+  },
+  "keywords": [
+    "F#",
+    "Fable",
+    "Websockets"
+  ],
+  "dependencies": {
+    "ws": "^2.2.0"
+  },
+  "author": "Justin Sacks",
+  "license": "MIT"
+}
